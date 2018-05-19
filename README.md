@@ -22,3 +22,9 @@ For example, these could be sides of rectangles:
       [ 0, -100 ]
     ],
 ]
+
+**TopoJSON cannot be translated directly by D3**
+
+TopoJSON -> geoJSON -> SVG path
+
+For TopoJSON -> geoJSON the TOPOJSON LIBRARY is used (must be included in index.html file via a <script> tag)

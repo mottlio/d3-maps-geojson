@@ -28,3 +28,5 @@ For example, these could be sides of rectangles:
 TopoJSON -> geoJSON -> SVG path
 
 For TopoJSON -> geoJSON the TOPOJSON LIBRARY is used (must be included in index.html file via a <script> tag)
+
+TopoJSON also has scale and translate properties which can be manipulated directly in the topoJSON file or in a JS file.
